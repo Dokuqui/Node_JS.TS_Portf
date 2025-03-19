@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { fetchDepartmentNumber } from "./departementNumber";
+import { fetchDepartmentNumber } from "./departmentNumber";
 import twilio from "twilio";
 import VoiceResponse = twilio.twiml.VoiceResponse;
 
