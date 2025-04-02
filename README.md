@@ -1,7 +1,29 @@
 # Node-JS_Portf
 
 1. ``API-Jewelry``
-2. ``Twilio-Server``
+2. ``Tests_QA``
+3. ``Twilio-Server``
+
+## TestQA_TestAPI
+
+### Overview
+
+TestQA_TestAPI is a repository dedicated to storing various test suites for end-to-end (E2E) and API testing purposes. It serves as a centralized location to manage and organize all your tests, ensuring the quality and reliability of your software products.
+
+### Existing test
+
+1. **parallel_run**: This Node.js script enables the parallel execution of two Postman collections using the Newman CLI. It allows users to run tests for different scenarios concurrently, improving efficiency and reducing execution time.
+
+#### Usage
+
+  1. **Configuration**: Update the paths to the Postman collections and environment files in the script (`collectionPath1`, `collectionPath2`, `envPath`).
+  2. **Execution**: Run the script using Node.js, adjusting the `PARALLEL_RUN_COUNT` parameter if necessary.
+
+  ```bash
+  npm test
+  ```
+
+------
 
 ## Twilio Server
 

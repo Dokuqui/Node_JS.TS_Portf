@@ -1,0 +1,17 @@
+{
+  "name": "tests_qa",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "node api/run_collections.js"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "newman": "^6.2.1",
+    "path": "^0.12.7",
+    "prettier": "^3.5.3"
+  }
+}
